@@ -2,6 +2,7 @@
     margin: 0;
     padding: 0;
     box-sizing: border-box;
+    opacity: 0.9;
 }
 body {
     background-color: black;
@@ -26,28 +27,105 @@ header img {
 .fixed {
     display: flex;
     flex-flow: row;
-    margin-left: 60%;
+    margin-left: 55%;
     align-items: center;
     text-decoration: underline;
-    padding-right: 10px;
+    padding-left: 10px;
 }
 .nav {
-    padding: 10px;
+    padding: 5px;
 }
-.container {
-    display: flex;
-    align-items: center;
-    
-    text-align: center;
-    background-image: url(./img-mission-background.jpg);
+.background {
     height: 700px;
     width: 1200px;
-
-}
-#background {
+    background-image: url(img-mission-background.jpg);
+    background-repeat: no-repeat;
     justify-content: center;
+    display: flex;
+    align-items: center;
+    margin: auto;
 }
 .text {
     background-color: black;
     width: 100%;
+    text-align: center;
 }
+.text2 {
+    text-align: center;
+    margin-top: 50px;
+    margin-bottom: 15px;
+}
+.pictures1 {
+    display: flex;
+    flex-flow: row;
+    justify-content: center;
+}
+.pictures2 {
+    display: flex;
+    flex-flow: row;
+    justify-content: center;
+}
+img {
+    height: 200px;
+    width: 300px;
+    margin: 10px 20px;
+    
+}
+figcaption {
+    font-size: smaller;
+    text-align: center;
+    margin-bottom: 15px;
+}
+.location {
+    height: 700px;
+    width: 1200;
+    background-image: url(img-locations-background.jpg);
+    background-repeat: no-repeat;
+    display:flex;
+    position: relative;
+    flex-flow: column;
+    justify-content: center;
+    align-items: center;
+    background-position-x: center;
+
+    
+}
+.textlocation {
+    display: flex;
+    position: relative;
+    justify-content: center;
+    margin-bottom: 15px;
+}
+.boxlocation {
+    display: inline-flex;
+    position:relative;
+    flex-flow: row;
+    
+
+}
+.downtownlocation, .eastbaylocation, .oakdalelocation {
+    height: 300px;
+    width: 300px;
+    text-align: center;
+    background-color: black;
+    margin: 0 40px;
+    display: flex;
+    flex-flow: column;
+    justify-content: center;
+    opacity: 1;
+}
+ h3, h6, h2, h5 {
+    margin-bottom: 30px;
+}
+footer {
+    text-align: center;
+    height: 200px;
+}
+aside {
+    margin: 20px;
+    
+}
+span {
+    text-decoration: underline;
+}
+
